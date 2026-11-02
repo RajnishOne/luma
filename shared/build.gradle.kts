@@ -92,6 +92,7 @@ ksp {
 compose.resources {
     publicResClass = true
     generateResClass = always
+    packageOfResClass = "flux.shared.generated.resources"
 }
 
 allprojects {

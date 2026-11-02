@@ -32,7 +32,7 @@
     <string name="button_forward">Player forward button</string>
     <string name="app_version">Version</string>
     <string name="subtitles_language">Subtitles language</string>
-    <string name="welcome">Welcome to Flux</string>
+    <string name="welcome">Welcome to Luma</string>
     <string name="welcome_description">Say goodbye to plain file managers and enjoy a modern, seamless viewing experience for all your movies, TV shows, and anime!</string>
     <string-array name="welcome_features">
         <item>Automatically fetches artwork, summaries, and details using TMDB</item>
@@ -44,7 +44,7 @@
     <string name="setup_sources_custom_title">Custom</string>
     <string name="setup_sources_custom_desc">Choose your source folders directly</string>
     <string name="setup_sources_title">Access your videos</string>
-    <string name="setup_sources_desc">To display and play your videos, Flux needs access to files on your device. However, you choose your sources so you can maintain control over your data.\nFurthermore, we do not collect or share any personal data.</string>
+    <string name="setup_sources_desc">To display and play your videos, Luma needs access to files on your device. However, you choose your sources so you can maintain control over your data.\nFurthermore, we do not collect or share any personal data.</string>
     <string name="empty_catalog">Your library is empty</string>
     <string name="empty_catalog_desc">To get started, make sure your video files are properly named. This allows the app to organize them automatically.</string>
     <string name="refresh">Refresh</string>
@@ -240,11 +240,11 @@
     <string name="participate">Participate</string>
 
     <string name="catalog_message">Play Store version coming soon, but I need your help!</string>
-    <string name="message_title">Flux on the Play Store!</string>
+    <string name="message_title">Luma on the Play Store!</string>
     <string-array name="message_details">
         <item>First of all, thank you everyone for your presence and your feedback to improve this app, I didn't expect so many people!</item>
-        <item>In order to give it even a bit more visibility, I would like to make Flux available on the Play Store. This would be a supporter edition (€1 only), in order to offset the fees and hardware I use for the app's development.</item>
-        <item>Of course, Flux will always be available for free on GitHub and F-Droid, and will have the exact same features (I don't want to maintain 2 different versions haha).</item>
+        <item>In order to give it even a bit more visibility, I would like to make Luma available on the Play Store. This would be a supporter edition (€1 only), in order to offset the fees and hardware I use for the app's development.</item>
+        <item>Of course, Luma will always be available for free on GitHub and F-Droid, and will have the exact same features (I don't want to maintain 2 different versions haha).</item>
         <item>However, in order to publish the app, I need a handful of testers to pass Google's validation, and that's why I'm turning to you. If you'd like to participate, all you need to do is send me your email address so I can add you to the list of testers, and then you'll receive a Play Store link inviting you to download the app (normally for free), and that's it.</item>
         <item>Thank you for your help and support, and see you soon!</item>
     </string-array>

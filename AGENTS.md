@@ -10,7 +10,7 @@
 
 ### Issue tracker
 
-Issues and specs live in GitHub Issues (`the-mskd-dev/Flux`, via the `gh` CLI). See `docs/agents/issue-tracker.md`.
+Issues and specs live in GitHub Issues (`RajnishOne/luma`, via the `gh` CLI). See `docs/agents/issue-tracker.md`.
 
 ### Triage labels
 

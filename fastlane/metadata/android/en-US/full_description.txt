@@ -1,4 +1,4 @@
-Flux is a modern, 100% open-source media library and video player for Android, built to organize your local movies, TV shows, and anime. It scans your offline video files and fetches rich metadata (posters, synopses, episode details, genres, and ratings) from The Movie Database (TMDB).
+Luma is a modern, 100% open-source media library and video player for Android, built to organize your local movies, TV shows, and anime. It scans your offline video files and fetches rich metadata (posters, synopses, episode details, genres, and ratings) from The Movie Database (TMDB).
 
 This F-Droid build is completely free, ad-free, tracker-free, and contains zero proprietary Google dependencies.
 
@@ -10,7 +10,7 @@ This F-Droid build is completely free, ad-free, tracker-free, and contains zero 
 - 🛡️ Pure FOSS: No ads, no telemetry, no proprietary SDKs, and no account required.
 
 ### 💖 Support the Project
-If you enjoy Flux, consider supporting its development by purchasing the Supporter Edition on the Google Play Store or via GitHub Sponsors. Thanks a lot, Kisses. 🙏
+If you enjoy Luma, consider supporting its development by purchasing the Supporter Edition on the Google Play Store or via GitHub Sponsors. Thanks a lot, Kisses. 🙏
 
 ---
 

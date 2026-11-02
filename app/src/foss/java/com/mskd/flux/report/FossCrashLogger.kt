@@ -40,7 +40,7 @@ class FossCrashLogger(private val app: Application) : CrashLogger {
 
             mailSender {
                 mailTo = Constants.CONTACT.MAIL
-                subject = "Flux - Crash Report - $versionName - $versionCode"
+                subject = "Luma - Crash Report - $versionName - $versionCode"
                 reportFileName = "Crash Report - $versionCode - $timestamp.txt"
             }
 

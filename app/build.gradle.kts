@@ -34,11 +34,11 @@ configure<ApplicationExtension> {
     ndkVersion = "29.0.13113456"
 
     defaultConfig {
-        applicationId = "com.mskd.flux"
+        applicationId = "com.player.rjnsdev.luma"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
-        versionCode = 39
-        versionName = "1.9.0"
+        versionCode = 1
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
         vectorDrawables { useSupportLibrary = true }
@@ -68,7 +68,6 @@ configure<ApplicationExtension> {
         }
         create("playstore") {
             dimension = "distribution"
-            applicationIdSuffix = ".playstore"
         }
     }
 
@@ -91,13 +90,13 @@ configure<ApplicationExtension> {
         debug {
             applicationIdSuffix = ".debug"
             versionNameSuffix = "-debug"
-            manifestPlaceholders["appName"] = "Flux Debug"
+            manifestPlaceholders["appName"] = "Luma Debug"
         }
 
         create("beta") {
             applicationIdSuffix = ".beta"
             versionNameSuffix = "-beta"
-            manifestPlaceholders["appName"] = "Flux Beta"
+            manifestPlaceholders["appName"] = "Luma Beta"
 
             if (signingConfigs.findByName("config") != null) {
                 signingConfig = signingConfigs.getByName("config")
@@ -217,13 +216,15 @@ tasks.withType<Test>().configureEach {
 
 tasks.configureEach {
     val isFossTask = name.contains("Foss", ignoreCase = true)
+    val hasGoogleServices = rootProject.file("app/src/playstore/google-services.json").exists() ||
+        rootProject.file("app/google-services.json").exists()
 
     val tasksToDisable = listOf(
         "GoogleServices",
         "Crashlytics"
     )
 
-    if (isFossTask && tasksToDisable.any { name.contains(it) }) {
+    if ((isFossTask || !hasGoogleServices) && tasksToDisable.any { name.contains(it) }) {
         enabled = false
     }
 }

@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Flux"
+rootProject.name = "Luma"
 include(":app")
 include(":shared")

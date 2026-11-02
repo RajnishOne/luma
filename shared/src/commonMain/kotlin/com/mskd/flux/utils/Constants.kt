@@ -17,14 +17,15 @@ object Constants {
     }
 
     object CONTACT {
-        const val MAIL = "the.masked.dev@proton.me"
-        const val GITHUB = "https://github.com/the-mskd-dev/Flux"
+        const val MAIL = "rajnishone@users.noreply.github.com"
+        const val GITHUB = "https://github.com/RajnishOne/luma"
 
-        const val X = "https://x.com/themskddev"
-        const val RELEASES = "https://github.com/the-mskd-dev/Flux/releases"
-        const val ISSUES = "https://github.com/the-mskd-dev/Flux/issues"
-        const val BUY_COFFEE = "https://buymeacoffee.com/the.masked.dev"
-        const val SPONSOR = "https://github.com/sponsors/the-mskd-dev/"
+        const val X = "https://ko-fi.com/rajnishone"
+        const val RELEASES = "https://github.com/RajnishOne/luma/releases"
+        const val ISSUES = "https://github.com/RajnishOne/luma/issues"
+        const val BUY_COFFEE = "https://ko-fi.com/rajnishone"
+        const val SPONSOR = "https://github.com/sponsors/RajnishOne"
+        const val PATREON = "https://patreon.com/bluematterdev"
     }
 
     object PLAYER {

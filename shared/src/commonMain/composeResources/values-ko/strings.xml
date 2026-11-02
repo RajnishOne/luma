@@ -31,7 +31,7 @@
     <string name="button_forward">플레이어 빨리감기 버튼</string>
     <string name="app_version">버전</string>
     <string name="subtitles_language">자막 언어</string>
-    <string name="welcome">Flux에 오신 것을 환영합니다</string>
+    <string name="welcome">Luma에 오신 것을 환영합니다</string>
     <string name="welcome_description">단순한 파일 관리자는 이제 안녕! 모든 영화, TV 프로그램, 애니메이션을 현대적이고 매끄러운 감상 환경에서 즐겨보세요!</string>
     <string-array name="welcome_features">
         <item>TMDB를 사용하여 포스터, 줄거리, 상세 정보를 자동으로 가져옵니다</item>
@@ -43,7 +43,7 @@
     <string name="setup_sources_custom_title">관습</string>
     <string name="setup_sources_custom_desc">소스 폴더를 직접 선택하세요</string>
     <string name="setup_sources_title">동영상 접근 권한</string>
-    <string name="setup_sources_desc">동영상을 표시하고 재생하려면 Flux가 기기의 파일에 접근해야 합니다.\n개인정보는 수집하거나 공유되지 않으니 안심하세요.</string>
+    <string name="setup_sources_desc">동영상을 표시하고 재생하려면 Luma가 기기의 파일에 접근해야 합니다.\n개인정보는 수집하거나 공유되지 않으니 안심하세요.</string>
     <string name="empty_catalog">라이브러리가 비어 있습니다</string>
     <string name="empty_catalog_desc">시작하려면 동영상 파일 이름이 올바르게 지정되었는지 확인하세요. 이를 통해 앱이 동영상을 자동으로 정리할 수 있습니다.</string>
     <string name="refresh">새로고침</string>
@@ -221,11 +221,11 @@
     <string name="participate">참여하기</string>
 
     <string name="catalog_message">Play Store 버전 출시 임박! 여러분의 도움이 필요합니다!</string>
-    <string name="message_title">Play Store에서의 Flux!</string>
+    <string name="message_title">Play Store에서의 Luma!</string>
     <string-array name="message_details">
         <item>먼저 이 앱을 개선하기 위해 함께해 주시고 피드백을 남겨주신 모든 분들께 감사드립니다. 이렇게 많은 분들이 참여해 주실 줄은 몰랐습니다!</item>
-        <item>조금 더 많은 사람들에게 알리기 위해 Flux를 Play Store에 출시하고 싶습니다. 앱 개발에 드는 수수료와 하드웨어 비용을 충당하기 위한 후원자용 에디션(단 1유로)이 될 예정입니다.</item>
-        <item>물론 Flux는 항상 GitHub와 F-Droid에서 무료로 이용할 수 있으며, 동일한 기능을 제공할 것입니다(두 가지 버전을 따로 관리하고 싶지는 않거든요 ㅎㅎ).</item>
+        <item>조금 더 많은 사람들에게 알리기 위해 Luma를 Play Store에 출시하고 싶습니다. 앱 개발에 드는 수수료와 하드웨어 비용을 충당하기 위한 후원자용 에디션(단 1유로)이 될 예정입니다.</item>
+        <item>물론 Luma는 항상 GitHub와 F-Droid에서 무료로 이용할 수 있으며, 동일한 기능을 제공할 것입니다(두 가지 버전을 따로 관리하고 싶지는 않거든요 ㅎㅎ).</item>
         <item>하지만 앱을 게시하려면 Google의 검수를 통과하기 위한 소수의 테스터 분들이 필요하여 이렇게 여러분께 도움을 요청하게 되었습니다. 참여를 원하신다면 테스터 목록에 등록할 수 있도록 이메일 주소를 보내주시기만 하면 됩니다. 이후 앱을 (normally 무료로) 다운로드할 수 있는 Play Store 링크를 받으시게 되며, 그거면 끝입니다.</item>
         <item>여러분들의 도움과 응원에 감사드리며, 곧 다시 뵙겠습니다!</item>
     </string-array>

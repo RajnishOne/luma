@@ -1,20 +1,16 @@
-[![GitHub Sponsors](https://img.shields.io/github/sponsors/the-mskd-dev?style=for-the-badge)](https://github.com/sponsors/the-mskd-dev/)
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-ffdd00?style=for-the-badge&logo=buy-me-a-coffee&logoColor=black)](https://www.buymeacoffee.com/the.masked.dev)
-
-[![Downloads](https://img.shields.io/github/downloads/the-mskd-dev/Flux/total)](https://github.com/the-mskd-dev/Flux/releases)
-
-[![F-Droid Version](https://img.shields.io/f-droid/v/com.mskd.flux)](https://f-droid.org/ko/packages/com.mskd.flux/)
-
-[![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/themskddev?style=for-the-badge)](https://x.com/themskddev)
+[![GitHub Sponsors](https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/RajnishOne)
+[![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/rajnishone)
+[![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/bluematterdev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
+[![Downloads](https://img.shields.io/github/downloads/RajnishOne/luma/total?style=for-the-badge)](https://github.com/RajnishOne/luma/releases)
+[![Package](https://img.shields.io/badge/Package-com.player.rjnsdev.luma-blue?style=for-the-badge)](https://github.com/RajnishOne/luma)
 
 ---
 
-# Flux
+# Luma
 
-**Flux** is a modern, open-source media library and video player for Android. It scans your local video files, fetches rich metadata (posters, descriptions, genres...) from [The Movie Database (TMDB)](https://www.themoviedb.org/), and organises everything into a clean, browsable library. **Here you can find the completely free, ad-free, and tracker-free version.**
+**Luma** is a modern, open-source media library and video player for Android. It scans your local video files, fetches rich metadata (posters, descriptions, genres, ratings...) from [The Movie Database (TMDB)](https://www.themoviedb.org/), and organizes everything into a clean, beautiful browsable library. **Completely free, ad-free, and tracker-free.**
 
-> **Platform status:** Flux currently ships on **Android**. The shared module is structured for Kotlin Multiplatform, I will probably make a Desktop and iOS support in the future.
+> **Platform status:** Luma currently runs on **Android**. The shared module is structured with Kotlin Multiplatform (KMP), with potential Desktop and iOS support in the roadmap.
 
 ---
 
@@ -23,9 +19,9 @@
 - 📂 **Local library** - Browse your movies, TV shows, and anime in one place
 - 🎬 **TMDB metadata sync** - Automatic posters, descriptions, genres, and ratings
 - ▶️ **Built-in player** - Smooth playback with persistent progress history
-- ▶️ **External player support** - If you don't like my player, you can use another one
+- ▶️ **External player support** - Launch external players if preferred
 - 🆓 **Truly free** - No ads, no trackers, no account required
-- 📦 **Available on F-Droid** - Fully FOSS build with no proprietary dependencies
+- 📦 **F-Droid & Play Store ready** - Fully FOSS build with no proprietary dependencies
 
 ---
 
@@ -49,7 +45,7 @@
 
 ## Build Flavors
 
-Flux uses a `distribution` flavor dimension to produce two distinct variants:
+Luma uses a `distribution` flavor dimension to produce two distinct variants:
 
 | Flavor | Distribution | Crash Reporting |
 |---|---|---|
@@ -62,7 +58,7 @@ The `foss` flavor automatically disables all Google Services and Firebase tasks 
 
 ## File Naming Conventions
 
-Flux uses your file names to identify and match content against TMDB. Follow the conventions below for best results.
+Luma uses your file names to identify and match content against TMDB. Follow the conventions below for best results.
 
 ### Movies
 
@@ -89,13 +85,24 @@ show name/s01e02.mkv
 show name/Season 1/02.mkv
 ```
 
+---
 
+## Configuration (`local.properties`)
+
+To enable TMDB metadata synchronization in debug/local builds, add your TMDB API read access token in `local.properties`:
+
+```properties
+tmdb_token=YOUR_TMDB_ACCESS_TOKEN
+```
+
+---
 
 ## License
 
 [![GPL-3.0-or-later](https://img.shields.io/badge/License-GPL--3.0--or--later-blue.svg)](https://spdx.org/licenses/GPL-3.0-or-later.html)
 
-Copyright (C) 2026 the-mskd-dev
+- Copyright (C) 2026 the-mskd-dev
+- Copyright (C) 2026 Rajnish Sharma ([RajnishOne](https://github.com/RajnishOne))
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 

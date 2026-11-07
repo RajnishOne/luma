@@ -34,7 +34,7 @@ configure<ApplicationExtension> {
     ndkVersion = "29.0.13113456"
 
     defaultConfig {
-        applicationId = "com.player.rjnsdev.luma"
+        applicationId = "com.player.rjnsdev.luna"
         minSdk = libs.versions.android.minSdk.get().toInt()
         targetSdk = libs.versions.android.targetSdk.get().toInt()
         versionCode = 1
@@ -90,13 +90,13 @@ configure<ApplicationExtension> {
         debug {
             applicationIdSuffix = ".debug"
             versionNameSuffix = "-debug"
-            manifestPlaceholders["appName"] = "Luma Debug"
+            manifestPlaceholders["appName"] = "Luna Debug"
         }
 
         create("beta") {
             applicationIdSuffix = ".beta"
             versionNameSuffix = "-beta"
-            manifestPlaceholders["appName"] = "Luma Beta"
+            manifestPlaceholders["appName"] = "Luna Beta"
 
             if (signingConfigs.findByName("config") != null) {
                 signingConfig = signingConfigs.getByName("config")

@@ -80,7 +80,7 @@ platform :android do
     tag_name = "#{version_name}"
 
     # Rename APK file
-    target_apk = File.join(File.dirname(source_apk), "luma-#{tag_name}.apk")
+    target_apk = File.join(File.dirname(source_apk), "luna-#{tag_name}.apk")
     sh("cp #{source_apk} #{target_apk}")
 
     # Create tag
@@ -102,7 +102,7 @@ platform :android do
 
     #Publish release on github
     set_github_release(
-          repository_name: "RajnishOne/luma",
+          repository_name: "RajnishOne/luna",
           api_token: ENV["RELEASE_TOKEN"],
           tag_name: tag_name,
           name: "Release #{tag_name}",

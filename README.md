@@ -1,16 +1,16 @@
 [![GitHub Sponsors](https://img.shields.io/badge/Sponsor-EA4AAA?style=for-the-badge&logo=github&logoColor=white)](https://github.com/sponsors/RajnishOne)
 [![Ko-fi](https://img.shields.io/badge/Ko--fi-F16061?style=for-the-badge&logo=ko-fi&logoColor=white)](https://ko-fi.com/rajnishone)
 [![Patreon](https://img.shields.io/badge/Patreon-F96854?style=for-the-badge&logo=patreon&logoColor=white)](https://patreon.com/bluematterdev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink)
-[![Downloads](https://img.shields.io/github/downloads/RajnishOne/luma/total?style=for-the-badge)](https://github.com/RajnishOne/luma/releases)
-[![Package](https://img.shields.io/badge/Package-com.player.rjnsdev.luma-blue?style=for-the-badge)](https://github.com/RajnishOne/luma)
+[![Downloads](https://img.shields.io/github/downloads/RajnishOne/luna/total?style=for-the-badge)](https://github.com/RajnishOne/luna/releases)
+[![Package](https://img.shields.io/badge/Package-com.player.rjnsdev.luna-blue?style=for-the-badge)](https://github.com/RajnishOne/luna)
 
 ---
 
-# Luma
+# Luna
 
-**Luma** is a modern, open-source media library and video player for Android. It scans your local video files, fetches rich metadata (posters, descriptions, genres, ratings...) from [The Movie Database (TMDB)](https://www.themoviedb.org/), and organizes everything into a clean, beautiful browsable library. **Completely free, ad-free, and tracker-free.**
+**Luna** is a modern, open-source media library and video player for Android. It scans your local video files, fetches rich metadata (posters, descriptions, genres, ratings...) from [The Movie Database (TMDB)](https://www.themoviedb.org/), and organizes everything into a clean, beautiful browsable library. **Completely free, ad-free, and tracker-free.**
 
-> **Platform status:** Luma currently runs on **Android**. The shared module is structured with Kotlin Multiplatform (KMP), with potential Desktop and iOS support in the roadmap.
+> **Platform status:** Luna currently runs on **Android**. The shared module is structured with Kotlin Multiplatform (KMP), with potential Desktop and iOS support in the roadmap.
 
 ---
 
@@ -45,7 +45,7 @@
 
 ## Build Flavors
 
-Luma uses a `distribution` flavor dimension to produce two distinct variants:
+Luna uses a `distribution` flavor dimension to produce two distinct variants:
 
 | Flavor | Distribution | Crash Reporting |
 |---|---|---|
@@ -58,7 +58,7 @@ The `foss` flavor automatically disables all Google Services and Firebase tasks 
 
 ## File Naming Conventions
 
-Luma uses your file names to identify and match content against TMDB. Follow the conventions below for best results.
+Luna uses your file names to identify and match content against TMDB. Follow the conventions below for best results.
 
 ### Movies
 

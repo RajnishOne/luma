@@ -31,7 +31,7 @@
     <string name="button_forward">プレーヤーの早送りボタン</string>
     <string name="app_version">バージョン</string>
     <string name="subtitles_language">字幕の言語</string>
-    <string name="welcome">Lumaへようこそ</string>
+    <string name="welcome">Lunaへようこそ</string>
     <string name="welcome_description">通常のファイルマネージャーとはサヨナラ！映画、ドラマ、アニメをモダンでスムーズな視聴体験でお楽しみください。</string>
     <string-array name="welcome_features">
         <item>TMDBを使用して、カバー画像、あらすじ、詳細情報を自動取得します</item>
@@ -43,7 +43,7 @@
     <string name="setup_sources_custom_title">カスタム</string>
     <string name="setup_sources_custom_desc">ソースフォルダーを直接選択します</string>
     <string name="setup_sources_title">動画ファイルへのアクセス</string>
-    <string name="setup_sources_desc">動画を表示・再生するには、Luma が端末内のファイルにアクセスする必要があります。\n個人データを収集したり共有したりすることはありませんのでご安心ください。</string>
+    <string name="setup_sources_desc">動画を表示・再生するには、Luna が端末内のファイルにアクセスする必要があります。\n個人データを収集したり共有したりすることはありませんのでご安心ください。</string>
     <string name="empty_catalog">ライブラリが空です</string>
     <string name="empty_catalog_desc">始めるには、動画ファイルの名前が正しく付けられているか確認してください。これによりアプリが自動的に整理できるようになります。</string>
     <string name="refresh">更新</string>
@@ -221,11 +221,11 @@
     <string name="participate">参加する</string>
 
     <string name="catalog_message">Play Store版がまもなく登場！みなさんの力が必要です！</string>
-    <string name="message_title">Play StoreにLumaが登場！</string>
+    <string name="message_title">Play StoreにLunaが登場！</string>
     <string-array name="message_details">
         <item>まず初めに、このアプリを改善するために参加し、フィードバックをくださった皆さん、本当にありがとうございます！こんなに多くの方々に集まっていただけるとは思っていませんでした！</item>
-        <item>より多くの人に知ってもらうために、LumaをPlay Storeで公開したいと考えています。アプリの開発にかかる手数料やハードウェア費用を相殺するための、サポーター向けエディション（わずか1ユーロ）となる予定です。</item>
-        <item>もちろん、Lumaは今後もGitHubとF-Droidで無料で利用可能であり、全く同じ機能を備えています（2つの異なるバージョンを管理したくはないので笑）。</item>
+        <item>より多くの人に知ってもらうために、LunaをPlay Storeで公開したいと考えています。アプリの開発にかかる手数料やハードウェア費用を相殺するための、サポーター向けエディション（わずか1ユーロ）となる予定です。</item>
+        <item>もちろん、Lunaは今後もGitHubとF-Droidで無料で利用可能であり、全く同じ機能を備えています（2つの異なるバージョンを管理したくはないので笑）。</item>
         <item>ただ、アプリを公開するためにはGoogleの審査を通過するための少数のテスターが必要であり、そのため皆さんの力をお借りしたいと考えています。参加をご希望の方は、テスターリストに登録するためにメールアドレスをお送りいただくだけで大丈夫です。その後、アプリを（通常は無料で）ダウンロードできるPlay Storeのリンクをお送りします。それだけで完了です。</item>
         <item>皆さんのご協力とご支援に感謝いたします。それでは、またお会いしましょう！</item>
     </string-array>

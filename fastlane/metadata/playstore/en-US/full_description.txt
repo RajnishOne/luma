@@ -1,9 +1,9 @@
-Transform your video collection into a clean, organized personal library for all your movies, TV shows, and anime. Luma scans your local media files and automatically fetches rich metadata—including official posters, plot synopses, episode guides, release dates, ratings, and cast details—powered by The Movie Database (TMDB).
+Transform your video collection into a clean, organized personal library for all your movies, TV shows, and anime. Luna scans your local media files and automatically fetches rich metadata—including official posters, plot synopses, episode guides, release dates, ratings, and cast details—powered by The Movie Database (TMDB).
 
-Whether you want to organize an offline movie collection, track your favorite TV show seasons, or manage your anime library, Luma delivers a modern and seamless media experience.
+Whether you want to organize an offline movie collection, track your favorite TV show seasons, or manage your anime library, Luna delivers a modern and seamless media experience.
 
 ### 💙 Support Independent Development
-By purchasing Luma on Google Play, you directly support independent open-source software development and help cover maintenance costs. Enjoy an ad-free, subscription-free experience with seamless automatic updates. Thanks a lot 🙏.
+By purchasing Luna on Google Play, you directly support independent open-source software development and help cover maintenance costs. Enjoy an ad-free, subscription-free experience with seamless automatic updates. Thanks a lot 🙏.
 
 ### 🎬 Key Features
 
@@ -19,4 +19,4 @@ By purchasing Luma on Google Play, you directly support independent open-source 
 ### 📜 Legal & Credits
 
 This product uses the TMDB API but is not endorsed or certified by TMDB.
-Luma is open-source software licensed under the GNU General Public License v3.0 (GPL-3.0).
+Luna is open-source software licensed under the GNU General Public License v3.0 (GPL-3.0).

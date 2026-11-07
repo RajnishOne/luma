@@ -14,6 +14,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Luma"
+rootProject.name = "Luna"
 include(":app")
 include(":shared")

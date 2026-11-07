@@ -18,11 +18,11 @@ object Constants {
 
     object CONTACT {
         const val MAIL = "rajnishone@users.noreply.github.com"
-        const val GITHUB = "https://github.com/RajnishOne/luma"
+        const val GITHUB = "https://github.com/RajnishOne/luna"
 
         const val X = "https://ko-fi.com/rajnishone"
-        const val RELEASES = "https://github.com/RajnishOne/luma/releases"
-        const val ISSUES = "https://github.com/RajnishOne/luma/issues"
+        const val RELEASES = "https://github.com/RajnishOne/luna/releases"
+        const val ISSUES = "https://github.com/RajnishOne/luna/issues"
         const val BUY_COFFEE = "https://ko-fi.com/rajnishone"
         const val SPONSOR = "https://github.com/sponsors/RajnishOne"
         const val PATREON = "https://patreon.com/bluematterdev"
